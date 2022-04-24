@@ -1,0 +1,261 @@
+/* ESTRUTURA DO SITE */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: NEXTART;
+    src: url(./fontes/NEXT-ART_Light.woff);
+}
+
+@font-face{
+    font-family: Harabara;
+    src: url(./fontes/Harabara-Mais-Demo.woff);
+}
+@font-face {
+    font-family: Rockford;
+    src: url(./fontes/RockfordSans-Light.woff);
+}
+
+body{
+    background: #EFEAEF url("./imagens/background.jpg");
+    font: 12px;
+}
+
+
+
+
+
+/* ESTRUTURA DO MENU */
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#logo a{
+    width: 230px;
+    height: 130px;
+    float: left;
+    background: url("./imagens/autoPositionLogo.png") no-repeat;
+}
+
+header nav {
+    padding: 15px 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    font-size: 20px;
+    margin: 20px;
+}
+
+nav ul li a {
+    font: 15px "NEXTART";
+    font-weight: bold;
+}
+
+a:link, a:active, a:visited{
+    color: #3e4072;
+    text-decoration: none;
+}
+
+body.home a#Home,
+body.AutoPosition a#AutoPosition,
+body.Vantagens a#Vantagens,
+body.Empresa a#Empresa,
+body.Contato a#Contato{
+    color: #EFEAEF;
+    background: #3e4072;
+    padding: 15px;
+};
+
+
+
+
+
+
+/* ESTRUTURA PRINCIPAL */
+
+#principal{
+    margin: auto;
+}
+
+/* ESTRUTURA PAGE HOME */
+.textoHome{
+    position: absolute;
+    float: left;
+    margin-top: 12em;
+    margin-left: 12em;
+}
+
+.textoHome p{
+    font: 60px "Harabara";
+}
+
+.textoInfoHome{
+    color: #3e4072;
+    margin-left: 2em;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.textoNumero{
+    color: #784740;
+    background: radial-gradient(#F9F149, orange);
+    padding: 20px;
+    text-align: center;
+    border-radius: 3em 3em 3em 3em;
+    box-shadow: 3px 8px 20px 10px rgba(0, 0, 0, 0.30);
+}
+
+.bottiniHome img{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20em;
+    width: 700px;
+    height: 550px;
+}
+
+
+/* ESTRUTURA PAGE AUTO POSITION */
+
+.bottiniAutoPosition img{
+    position: absolute;
+    bottom: 0;
+    margin-left: 15em;
+    width: 350px;
+    height: 550px;
+}
+
+.textoBemVindo{
+    color: #3e4072;
+    margin-top: 5em;
+    margin-left: 12.5em;
+    padding-bottom: 30px;
+    font: 50px "NEXTART";
+    font-weight: bold;
+}
+
+.textoInfoAutoPosition{
+    width: 700px;
+    color: #3e4072;
+    margin-left: 35em;
+    padding-bottom: 30px;
+    font: 18px "Rockford";
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* ESTRUTURA PAGE VANTAGENS */
+
+.celularMap img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: 550px;
+}
+
+.textoVantagensTopo{
+    color: #3e4072;
+    margin-top: 3.5em;
+    margin-left: 2em;
+    padding-bottom: 30px;
+    font: 40px "NEXTART";
+    font-weight: bold;
+}
+
+.tituloVantagens{
+    color: #784740;
+    font: 25px "NEXTART";
+    font-weight: bold;
+    margin-left:3em;
+    padding: 10px;
+}
+
+.textoVantagens{
+    color: #3e4072;
+    font: 18px "Rockford";
+    font-weight: bold;
+    margin-left:5em;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* ESTRUTURA PAGE EMPRESA */
+
+.badgeInfo img{
+    position: absolute;
+    margin-top: 5em;
+    left: 25em;
+    transform: rotate(-50%, -50%);
+    width: 800px;
+    height: 160px;
+}
+
+.nomeInfoEmpresa{
+    color: #3e4072;
+    margin-top: 3.5em;
+    padding-bottom: 30px;
+    font: 40px "NEXTART";
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoInfoEmpresa {
+    color: #3e4072;
+    width: 900px;
+    font: 18px "Rockford";
+    font-weight: bold;
+    margin-left:18em;
+    text-align: justify;
+}
+
+/* ESTRUTURA PAGE CONTATO */
+
+.contatoGeral{
+    color: #3e4072;
+    font: 30px "NEXTART";
+    text-align: center;
+    font-weight: bold;
+}
+
+.telefoneInfo{
+    margin-top: 5em;
+    padding-bottom: 30px;
+}
+
+.contatoInfo{
+    padding-bottom: 30px;
+}
+
+.formulario{
+    margin-left: 38%;
+    text-align: justify;
+}
+
+.dadosTexto{
+    color: #784740;
+    font: 25px "Rockford";
+    font-weight: bold;
+}
+
+.dadosInserção{
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+}
+
+.emergenciaInfo{
+    margin-top: 1em;
+    padding-bottom: 10px;
+}
